@@ -1,0 +1,156 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+.divider {
+  height: 100px;
+}
+
+body {
+  background-color: #153058;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.53);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.6px);
+  -webkit-backdrop-filter: blur(12.6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand i {
+  color: aqua;
+  font-size: 34px;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 24px;
+}
+
+.navbar-brand span {
+  color: aqua;
+  font-size: 24px;
+}
+
+.nav-item .nav-link {
+  color: white;
+}
+
+.form-wraper{
+ background: rgba(255, 255, 255, 0.53);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.6px);
+  -webkit-backdrop-filter: blur(12.6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card{
+  /* From https://css.glass */
+ background: rgba(255, 255, 255, 0.908));
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.6px);
+  -webkit-backdrop-filter: blur(12.6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#products input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid grey;
+  border-radius: 0;
+  color: #ffffff;
+  background-color: #153058;
+  border-radius: 10px;
+}
+
+#products input::placeholder {
+  background-color: #153058;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card {
+  width: 300px;
+  height: 380px;
+
+  border: none;
+  margin-top: 35px;
+}
+
+.card img {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+}
+
+
+
+.card p {
+  font-size: 16px;
+}
+
+.card-msg {
+  font-size: 40px;
+}
+.card-body button{
+ font-size: 14px;
+}
+.order-box {
+    width: 100%;
+    background-color: #153058;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.35);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    min-height: 300px;
+}
+
+.order-box .title {
+    font-size: 20px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.order-box .row-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 16px;
+    color: #d4d4d4;
+}
+
+.order-box .total-row {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.order-box .total-amount {
+    color: #5db6ff;
+}
+
+.order-box .divider {
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin: 15px 0;
+}
+ 
