@@ -16,7 +16,7 @@ const displayData = () => {
         document.getElementById("totalCol").style.display = "none";
     cartMsg.innerHTML = `
         <div class="card-text ">
-        <h3 class="text-center  mt-5 text-muted card-msg">Your Cart is Empty</h3>
+        <h3 class="text-center  mt-5 text-muted card-msg text-light">Your Cart is Empty</h3>
         </div>
     `;
     return;
