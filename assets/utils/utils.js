@@ -21,7 +21,7 @@ let nav = `
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-danger" aria-current="page" href="${preFix}/index.html">Home</a>
+                            <a class="nav-link active text-danger" aria-current="page" href="${preFix}index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="${preFix}addpro.html">Add Product</a>
